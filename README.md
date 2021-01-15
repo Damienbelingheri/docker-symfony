@@ -22,8 +22,6 @@ git clone  git@github.com:Damienbelingheri/Project_Symfony_Docker
 cd Project_Symfony_Docker
 ```
 
-### Make this repository yours
-
 ### Configure your Database
 
 ```yaml
