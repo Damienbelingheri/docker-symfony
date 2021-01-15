@@ -18,7 +18,7 @@ services:
       start_period: 30s
     environment:
       DATABASE_URL: mysql://${MYSQL_USER:-user}:${MYSQL_PASSWORD:-userPa$$w0rd}@database:3306/${MYSQL_DATABASE:-name_of_your_database}
-      SYMFONY_VERSION: '5.2'
+      SYMFONY_VERSION: ''
 
 # Create Caddy (server) container thanks to the Dockerfile   
   caddy:
