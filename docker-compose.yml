@@ -36,6 +36,9 @@ services:
       - caddy_data:/data
       - caddy_config:/config
 
+
+
+
 #Create a container for the database
   database:
       image: mysql
