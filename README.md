@@ -13,7 +13,7 @@
 ### Retrieve repository
 
 ```shell
-git clone  git@github.com:Damienbelingheri/Project_Symfony_Docker
+git clone git@github.com:Damienbelingheri/docker-symfony.git
 ```
 
 ### Go to the project directory
