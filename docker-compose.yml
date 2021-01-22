@@ -48,10 +48,10 @@ services:
       ports:
         - 3307:3307
       environment:
-        MYSQL_DATABASE: graphql
-        MYSQL_ROOT_PASSWORD: passion
-        MYSQL_USER: damien
-        MYSQL_PASSWORD: passion
+        MYSQL_DATABASE: name_of_your_database
+        MYSQL_ROOT_PASSWORD: RootPa$$w0rd
+        MYSQL_USER: user
+        MYSQL_PASSWORD: userPa$$w0rd
         # Create a directory at the root of the project and push the content of /var/lib/mysql inside
       volumes:
       - .docker/data/db:/var/lib/mysql
